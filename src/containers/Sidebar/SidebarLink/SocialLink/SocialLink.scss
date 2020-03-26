@@ -1,0 +1,43 @@
+.Sociallink{
+    margin:0;
+    padding: 0;
+    float:right;
+    li{
+        display: inline-block;
+        padding-right: 30px;
+        list-style: none;
+        width: 50px;
+        height: 50px;
+        border-radius: 30px;
+        text-align: center;
+        position: relative;
+        margin-right: 10px;
+        a{
+            display: inline-block;
+            border-radius: 30px;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            left:50%;
+            top:50%;
+            img{
+                vertical-align: middle;
+            }
+        }
+        
+        &.fb{
+            &:hover{
+                background-color:#3B5998;
+            }
+        }
+        &.twitter{
+            &:hover{
+                background-color:#00ACEE;
+            }
+        }
+        &.pintrest{
+            &:hover{
+                background-color: #D73532;
+            }
+        }
+    }
+}
