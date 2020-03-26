@@ -1,3 +1,5 @@
+@import '../../../../base.scss';
+
 .Sociallink{
     margin:0;
     padding: 0;
@@ -26,17 +28,17 @@
         
         &.fb{
             &:hover{
-                background-color:#3B5998;
+                background-color:$fb;
             }
         }
         &.twitter{
             &:hover{
-                background-color:#00ACEE;
+                background-color:$twitter;
             }
         }
         &.pintrest{
             &:hover{
-                background-color: #D73532;
+                background-color: $pintrest;
             }
         }
     }

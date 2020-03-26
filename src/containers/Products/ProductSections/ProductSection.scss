@@ -1,4 +1,4 @@
-
+@import '../../../base.scss';
 section{
     margin-bottom: 60px;
     .product-img{
@@ -49,7 +49,7 @@ section{
             &.og_price{
                 &:not(:only-child) {
                     text-decoration:line-through;
-                    color:#9c9c9c;
+                    color:$gray;
                 }
             }
         }
@@ -89,7 +89,7 @@ section{
             color:#000;
             letter-spacing: 1px;;
             div.icons{
-                background-color: #9c9c9c;
+                background-color:$gray;
                 width: 40px;
                 height: 40px;
                 border-radius: 50%;
@@ -125,7 +125,7 @@ section{
                 padding:6px 20px;
                 border:none;
                 line-height: 28px;
-                color:#9c9c9c;
+                color:#gray;
                 font-size: 20px;
             }
             input{
@@ -134,11 +134,12 @@ section{
                 padding:6px 12px;
                 background-color: #EFEFEF;
                 border: none;
-                width:28px;
+                width:45px;
                 vertical-align: top;
+                text-align: center;
             }
             .cart-btn{
-                background-color:#FFD443;
+                background-color:$primary-color;
                 padding:6px 12px;
                 height: 40px;
                 border: none;
@@ -167,7 +168,7 @@ section{
                 margin:0;
             }
             time{
-                color:#9c9c9c;
+                color:$gray;
             }
         }
     }

@@ -1,3 +1,4 @@
+@import '../../base.scss';
 .breadcrumb{
     background-color: transparent !important;
     margin: 20px 0;
@@ -34,7 +35,7 @@
         position: absolute;
         pointer-events: none;
         border-color: rgba(136, 183, 213, 0);
-        border-left-color: #FFD443;
+        border-left-color: $primary-color;
         border-width: 5px;
         margin-top: -5px;
     }

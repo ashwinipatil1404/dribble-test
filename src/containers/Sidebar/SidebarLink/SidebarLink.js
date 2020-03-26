@@ -1,11 +1,12 @@
 import React from 'react';
-import './SidebarLink.scss';
+import styles from './SidebarLink.module.scss';
 
 const SidebarLink = (props) =>{
-    // const scrolllink = props.Link.toLowercase();
+    const scrolllink = props.Link.toString().toLowerCase();
+    //const isActive = location.pathname.match(/^\/detail/) ? "active" : "";
     return(
-    <li className="side-link">
-        <a href={`#${props.Link.toString().toLowerCase()}`}>
+    <li className={styles["side-link"]}>
+        <a href={`#${scrolllink}`}>
             {props.Link}
         </a>        
     </li>

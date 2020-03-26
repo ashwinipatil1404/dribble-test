@@ -7,7 +7,7 @@ const Sidebar = (props) => (
     <div className="col-sm-3" id="sticky-sidebar">
         <aside className="fixedsidebar">
             <ul>
-                <SidebarLink Link="Detail">Detail</SidebarLink>
+                <SidebarLink Link="Details">Details</SidebarLink>
                 <SidebarLink Link="Description">Description</SidebarLink>
                 <SidebarLink Link="Review">Reviews</SidebarLink>
                 <SidebarLink Link="Custom">Custom</SidebarLink>

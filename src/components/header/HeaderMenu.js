@@ -26,7 +26,7 @@ class HeaderMenu extends React.Component{
         return(
             <>
                 <header>
-                    <div className="container">
+                    <div className="container-fluid">
                         <nav className="navbar navbar-expand-md">               
                             <a className="navbar-brand" href="#"><Logo /></a>
                             <DrawerToggle clicked={this.toggleHandler} />
