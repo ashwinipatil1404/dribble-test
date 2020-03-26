@@ -4,7 +4,7 @@ import SidebarLink from './SidebarLink/SidebarLink';
 import SocialLink from './SidebarLink/SocialLink/SocialLink';
 
 const Sidebar = (props) => (
-    <div class="col-sm-3" id="sticky-sidebar">
+    <div className="col-sm-3" id="sticky-sidebar">
         <aside className="fixedsidebar">
             <ul>
                 <SidebarLink Link="Detail">Detail</SidebarLink>

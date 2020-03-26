@@ -73,7 +73,7 @@ const ProductSection = () => (
                             <img className="review-pic rounded-circle" src={Profilepic}></img>
                             <div className="review-detail">
                                 <p className="review-name">Johnatan Doe</p>
-                                <time datetime="">August 26, 2020</time>
+                                <time dateTime="">August 26, 2020</time>
                             </div>
                         </div>
                     </div>
@@ -96,7 +96,7 @@ const ProductSection = () => (
                             <img className="review-pic rounded-circle" src={Profilepic}></img>
                             <div className="review-detail">
                                 <p className="review-name">Johnatan Doe</p>
-                                <time datetime="">August 26, 2020</time>
+                                <time dateTime="">August 26, 2020</time>
                             </div>
                         </div>
                     </div>

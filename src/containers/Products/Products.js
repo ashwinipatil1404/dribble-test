@@ -4,7 +4,7 @@ import ProductSection from './ProductSections/ProductSections';
 
 const Products = () =>(
     
-    <div class="col-sm-9 offset-sm-3" id="main">
+    <div className="col-sm-9 offset-sm-3" id="main">
         <ProductSection />
     </div>
     
