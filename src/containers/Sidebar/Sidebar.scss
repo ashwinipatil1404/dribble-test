@@ -33,6 +33,19 @@
                     right: 0;
                 }
             }
+            &.active{
+                &:before{
+                    background-color: $primary-color;
+                    content: "";
+                    position: absolute;
+                    width:calc(100% + 45px);
+                    height: 10px;
+                    bottom: 20px;
+                    left:-45px;
+                    right: 0;
+                }
+               
+            }
         }
     }
 }
