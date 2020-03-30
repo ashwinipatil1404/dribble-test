@@ -1,17 +1,18 @@
 import React from 'react';
 import styles from './SidebarLink.module.scss';
 
-const SidebarLink = (props) =>{
+function SidebarLink(props){
+
     const scrolllink = props.Link.toString().toLowerCase();
-    const isActive = window.location.hash === `#` + scrolllink;
-    console.log(`#` + scrolllink);
-    return(
-    <li className={`${styles["side-link"]} ${isActive ? "active" : 'null'}`}>
-        <a href={`#${scrolllink}`}>
-            {props.Link}
-        </a>        
-    </li>
+    const activeClass = props.isActive ? "active" : "";
+
+    return (
+        <li to={props.Link} className={`${styles["side-link"]} ${activeClass}`} >
+            <a href={`#${scrolllink}`} onClick={props.menuClick}>
+                {props.Link}
+            </a>
+        </li>
     )
 }
 
-export default SidebarLink 
+export default SidebarLink
